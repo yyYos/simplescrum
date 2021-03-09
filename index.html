@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleScrum</title>
+</head>
+<body>
+    <header>
+        <div id="container">
+            <img src="logo.svg" alt="Logo simpleScrum"/>
+            <button class="new-task">New Task</button>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <h1>SimpleScrum</h1>
+            <div class="container">
+                <h2>To Do</h2>
+                <article class="task">
+                    <h3>Crear JSON del proyecto</h3>
+                    <p>Responsable: <span>Yoselin Arzola</span></p>
+                    <p>Plazo: <span>05/04/2021</span></p>
+                </article>
+                <article class="task">
+                    <h3>Crear JSON del proyecto</h3>
+                    <p>Responsable: <span>Yoselin Arzola</span></p>
+                    <p>Plazo: <span>05/04/2021</span></p>
+                </article>
+                <article class="task">
+                    <h3>Crear JSON del proyecto</h3>
+                    <p>Responsable: <span>Yoselin Arzola</span></p>
+                    <p>Plazo: <span>05/04/2021</span></p>
+                </article>
+            </div>
+            <div class="container">
+                <h2>In progess</h2>
+                <article class="task">
+                    <h3>Crear JSON del proyecto</h3>
+                    <p>Responsable: <span>Yoselin Arzola</span></p>
+                    <p>Plazo: <span>05/04/2021</span></p>
+                </article>
+            </div>
+            <div class="container">
+                <h2>Done</h2>
+                <article class="task">
+                    <h3>Crear JSON del proyecto</h3>
+                    <p>Responsable: <span>Yoselin Arzola</span></p>
+                    <p>Plazo: <span>05/04/2021</span></p>
+                </article>
+            </div>
+        </div>
+        <aside class="aside-container">
+            <h2>Nueva Tarea</h2>
+            <div class="form-container">
+                <form>
+                    <div class="input-container">
+                        <label for="titleTask">Título:</label>
+                        <input name="titleTask" id="titleTask" type="text" placeholder="Escribe un título descriptivo"/>
+                    </div>
+                    <div class="input-container">
+                        <label for="personTask">Responsable:</label>
+                        <select name="personTask" id="personTask">
+                            <option value="">--Seleccionar--</option>
+                            <option value="yoselin"> Yoselin </option>
+                            <option value="santiago"> Santiago </option>
+                            <option value="karen"> Karen </option>
+                            <option value="carlos"> Carlos </option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label for="deadlineTask">Plazo entrega:</label>
+                        <select name="deadlineTask" id="deadlineTask">
+                            <option value="">--Seleccionar--</option>
+                            <option value="uno"> 1 día </option>
+                            <option value="dos"> 2 días </option>
+                            <option value="tres"> 3 días </option>
+                            <option value="siete"> 1 Semana </option>
+                        </select>
+                    </div>
+                    <div class="action-container">
+                        <button type="submit" class="guardar">Guardar</button>
+                        <button type="reset" class="reset">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </aside>
+    </main>
+
+</body>
+</html>
